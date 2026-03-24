@@ -62,8 +62,39 @@ A built-in supply chain accountability module powered by a local OP-SQLite datab
 
 ---
 
+## ⚙️ Technical Stack & Architecture
+
+To achieve a highly responsive, offline-first enterprise mobile application, EnvTory utilizes a professional-grade sync-engine architecture:
+
+* **Frontend Framework:** React Native (Expo) – Chosen for rapid cross-platform deployment and native-feeling UI physics.
+* **Language:** TypeScript – Implemented for strict type safety and predictable state management across complex grading math.
+* **Backend & Auth:** Supabase – Leveraged for secure authentication, real-time database capabilities, and scalable cloud storage.
+* **Sync Layer:** PowerSync – A crucial architectural choice that enables true offline-first functionality. It keeps the local OP-SQLite database in perfect sync with the Supabase cloud backend, ensuring zero data loss in low-connectivity manufacturing environments.
+* **Edge Data:** OP-SQLite – High-performance local storage that allows for instantaneous "The Judge" calculations and "The Landing" intake without relying on network latency.
+* **AI-Augmented Engineering:** Antigravity, Gemini, and Claude – Leveraged as an AI engineering team to rapidly prototype complex logic algorithms and iterate on React Native UI components.
+
+
+---
+
 ## 🧠 Product Management & AI Architecture
 
 **The approach:** I approached this project acting as the Product Manager and Domain Expert. I defined the problem statements, mapped the business logic, gathered UI/UX requirements, and established success metrics. 
 
 Leveraging AI as my engineering team, I strictly managed the logic output, iterated on the application state, and dialed in the UI physics to rapidly prototype and deliver a complex, offline-resilient enterprise application independently. Building EnvTory is an exercise in taking a massive real-world supply chain problem and translating it into a digital product that immediately impacts the bottom line.
+
+
+---
+
+## 📬 Contact & Collaboration
+
+I am currently pursuing my B.S. in Information Sciences and Technology at **Penn State University** and am actively seeking opportunities in **Product Management, Software Engineering, or Technical Operations.**
+
+If you are interested in discussing EnvTory, enterprise manufacturing solutions, or potential roles, let's connect:
+
+* **LinkedIn:** www.linkedin.com/in/brandonsickler
+* **Email:** BrandonMSickler@gmail.com
+
+---
+<div align="center">
+  <sub>Built with passion for the Lumber Industry 🌲</sub>
+</div>
