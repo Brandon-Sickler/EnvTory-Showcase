@@ -25,7 +25,7 @@ In the hardwood lumber industry, mills lose thousands of dollars daily due to in
 ### 1. Mission Control (The Enterprise Hub)
 EnvTory functions as a full suite, breaking operations down into dedicated, modular workflows. This ensures facilities can scale the software to match their specific footprint, from Log Yard Intake to Pack Building and Supply Chain logistics.
 
-<img src="(https://github.com/user-attachments/assets/da9b4ba3-3f24-4aff-97f2-42047d614b99)" width="350">
+<img src="https://github.com/user-attachments/assets/da9b4ba3-3f24-4aff-97f2-42047d614b99" width="350">
 
 
 
@@ -42,21 +42,21 @@ Instead of just recording data, **The Optimizer** actively calculates real-time 
 ### 3. "The Landing": Log Yard Intake & Scaling
 Lumber optimization starts before the wood hits the saw. The Landing module allows for rapid log scaling (e.g., Doyle scale), vendor ticket tracking, and granular defect deductions (Rot, Sweep, Crook) right in the yard.
 
-<img src="(https://github.com/user-attachments/assets/35c921ce-63dc-40e7-8be9-c04b5deaa8ca)" width="350">
+<img src="https://github.com/user-attachments/assets/35c921ce-63dc-40e7-8be9-c04b5deaa8ca" width="350">
 
 
 
 ### 4. Real-Time Operations & Inventory
 Connecting the shop floor to the top floor. As operators tally wood, plant managers can instantly monitor production flow, track active kiln charges, view live grade percentages, and make proactive operational decisions in real time.
 
-<img src="(https://github.com/user-attachments/assets/5d3a9da7-4b98-4f91-b0ae-db6d60ccc4c0)" width="350">
+<img src="https://github.com/user-attachments/assets/5d3a9da7-4b98-4f91-b0ae-db6d60ccc4c0" width="350">
 
 
 
 ### 5. "The Stockpile": Vendor Auditing & SQLite Edge Data
 A built-in supply chain accountability module powered by a local OP-SQLite database. EnvTory tracks the expected grade versus the actual graded yield per vendor. This provides purchasing departments with actionable business intelligence to negotiate contracts and manage supplier performance, all while remaining fully functional offline.
 
-<img src="(https://github.com/user-attachments/assets/dc86fa94-3818-4743-8026-7d17424e449c)" width="350">
+<img src="https://github.com/user-attachments/assets/dc86fa94-3818-4743-8026-7d17424e449c" width="350">
 
 
 
