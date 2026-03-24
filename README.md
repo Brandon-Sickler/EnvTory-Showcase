@@ -35,7 +35,7 @@ This is the core financial safety net of the application. To ensure high user ad
 Instead of just recording data, **The Optimizer** actively calculates real-time profitability thresholds based on the exact width measured on the Smart Tape. It tells the inspector the **"Max Cut"** and **"Max Drop"** allowed before an upgrade loses money. This empowers the operator to make the final physical cut while guaranteeing financial safety.
 
 [Button Optimizer]
-,img src="https://github.com/user-attachments/assets/401eee5d-4ca4-4159-a988-4c13d60f63fb" width="300">
+<img src="https://github.com/user-attachments/assets/401eee5d-4ca4-4159-a988-4c13d60f63fb" width="300">
 
 
 
