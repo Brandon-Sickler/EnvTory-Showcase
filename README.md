@@ -1,5 +1,7 @@
 # EnvTory: Hardwood Lumber Grading & ERP Optimizer
 **Bridging the gap between the sawmill floor and the front office.**
+> **Note:** The source code for EnvTory is maintained in a private repository to protect proprietary business logic and enterprise security configurations. This repository serves as a technical showcase of the application's architecture, UI/UX design, and integrated manufacturing workflows.
+
 
 EnvTory is an enterprise-grade, offline-first mobile application designed to optimize hardwood lumber grading, preserve manufacturing yield, and digitize the timber supply chain. 
 
