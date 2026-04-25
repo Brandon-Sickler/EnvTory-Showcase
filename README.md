@@ -8,55 +8,53 @@ EnvTory is an enterprise-grade, offline-first mobile application designed to opt
 Architected by a 15-year industry veteran and Pennsylvania State University IST student, EnvTory translates complex NHLA rules into a high-performance digital tool that protects mill profitability in real-time.
 
 ### 🎥 System Overview & Live Demo
-![EnvTory Demo](./assets/EnvTory_Screen_Recording.mp4)
+<video src="PASTE_YOUR_VIDEO_LINK_HERE" width="100%" controls>
+  Your browser does not support the video tag.
+</video>
 
 ---
 
 ## 💡 System Modules & Core Features
 
-### 1. Mission Control (The Hub)
-The central command center. EnvTory is built on a modular architecture, allowing facilities to scale from simple intake to full-scale production analytics.
-![Mission Control](./assets/HomeScreen.jpg)
+### 1. Operations Management & Log Intake
+The foundational layer of the supply chain, handling everything from initial intake to global mill configuration.
 
-### 2. Log Intake (The Landing)
-The entry point of the supply chain. This module handles vendor tickets, species identification, and granular defect audits (Stain, Heartwood, Wane).
-* **Defect Logic:** Built-in deduction math for Rot, Sweep, and Crook.
-* **Scale Mode:** Supports Doyle and International 1/4 rules.
-![Scale Mode](./assets/Log_Intake_Scale_Mode.jpg)
-![Quality Audit](./assets/Log_Intake_Load_Quality_Audit.jpg)
+| Mission Control | Log Intake | Quality Audit |
+| :---: | :---: | :---: |
+| <img src="./assets/HomeScreen.jpg" width="250" /> | <img src="./assets/Log_Intake_Scale_Mode.jpg" width="250" /> | <img src="./assets/Log_Intake_Load_Quality_Audit.jpg" width="250" /> |
+| **Central Hub:** Modular dashboard for facility-wide scaling. | **Intake Scaling:** Supports Doyle and International 1/4 rules. | **Quality Audit:** Digital defect tracking (Stain, Heartwood, Wane). |
 
-### 3. Lumber Grading ("The Judge")
-The heart of the app. Featuring a **Smart Tape** UI that mirrors the physical Lufkin sticks used by professionals.
-* **Profitability Guardrails:** Real-time calculation of "Max Drop" and "Max Cut" allowed before a grade-upgrade loses money.
-![The Judge](./assets/Lumber_Grading_Highlight.jpg)
+### 2. Lumber Grading & Yield Optimization
+The core engine designed to protect mill margins. This module mirrors physical workflows while providing real-time financial guardrails.
 
-### 4. Packet Builder & Tally
-Translating individual boards into commercial packages. This module manages the physical "Yard Inventory" while tracking the specific tally and grade distribution of every pack.
-* **Auto-Calc:** Instant board-foot calculation based on width and efficiency settings.
-* **Traceability:** Every pack is linked back to the original Log Yard ticket.
-![Yard Inventory](./assets/Packet_Builder_Yard_Tab.jpg)
-![Grader Tally](./assets/Packet_Builder_Grader_Tab.jpg)
-![Tally Settings](./assets/Packet_Builder_Tally_Tab.jpg)
+| Grading Interface | Pricing Engine | Mill Configuration |
+| :---: | :---: | :---: |
+| <img src="./assets/Lumber_Grading_Highlight.jpg" width="250" /> | <img src="./assets/Mill_Management_Prices_Tab.jpg" width="250" /> | <img src="./assets/Mill_Management_Config_Tab.jpg" width="250" /> |
+| **Yield Optimizer:** Real-time "Max Drop" calculations to protect ROI. | **Market Pricing:** Granular price management by species and grade. | **Global Config:** Dynamic toggles for species and thickness tracking. |
 
-### 5. Production Manager & Analytics
-The administrative layer for real-time visibility. Monitor current intake volumes and manage the mill's "Golden Rules" (Pricing, Species, and active production runs).
-![Production Analytics](./assets/Production_Analytics_Screen.jpg)
-![Pricing Engine](./assets/Mill_Management_Prices_Tab.jpg)
-![Configuration](./assets/Mill_Management_Config_Tab.jpg)
+### 3. Inventory Control & Production Analytics
+Connecting real-time shop floor data to administrative oversight, ensuring 100% traceability.
+
+| Yard Inventory | Packet Tally | Production Manager |
+| :---: | :---: | :---: |
+| <img src="./assets/Packet_Builder_Yard_Tab.jpg" width="250" /> | <img src="./assets/Packet_Builder_Tally_Tab.jpg" width="250" /> | <img src="./assets/Production_Analytics_Screen.jpg" width="250" /> |
+| **Traceability:** Live tracking of staged vs. active production runs. | **Auto-Tally:** Instant board-foot and efficiency calculations. | **Executive Oversight:** Real-time monitoring of facility throughput. |
 
 ---
 
 ## ⚙️ Technical Stack & Architecture
-* **Frontend:** React Native (Expo) & TypeScript.
-* **Local Database:** OP-SQLite – For instantaneous "Edge" grading math.
-* **Sync Engine:** PowerSync – True offline-first synchronization.
-* **Backend:** Supabase – Secure Auth and cloud storage.
-* **DevOps:** EAS – Native builds and OTA (Over-the-Air) updates.
+EnvTory is architected for the "No-Service" environments of a sawmill using a professional-grade, offline-first sync engine.
+
+* **Frontend:** React Native (Expo) & TypeScript for a native, type-safe mobile experience.
+* **Local Database:** OP-SQLite for instantaneous, edge-based grading calculations.
+* **Sync Engine:** PowerSync to ensure zero data loss and seamless background cloud synchronization.
+* **Backend:** Supabase (PostgreSQL) for secure authentication and relational data storage.
+* **DevOps:** EAS (Expo Application Services) for automated native builds and OTA (Over-the-Air) updates.
 
 ---
 
 ## 📬 Contact & Collaboration
-**Brandon Sickler** *B.S. Information Sciences and Technology | Pennsylvania State University* * **LinkedIn:** [www.linkedin.com/in/brandonsickler](https://www.linkedin.com/in/brandonsickler)  
+**Brandon Sickler** *B.S. Information Sciences and Technology | Pennsylvania State University* * **LinkedIn:** [linkedin.com/in/brandonsickler](https://www.linkedin.com/in/brandonsickler)
 * **Email:** BrandonMSickler@gmail.com
 
 ---
