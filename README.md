@@ -8,7 +8,7 @@ EnvTory is an enterprise-grade, offline-first mobile application designed to opt
 Architected by a 15-year industry veteran and Pennsylvania State University IST student, EnvTory translates complex NHLA rules into a high-performance digital tool that protects mill profitability in real-time.
 
 ### 🎥 System Overview & Live Demo
-<video src="PASTE_YOUR_VIDEO_LINK_HERE" width="100%" controls>
+<video src="https://github.com/user-attachments/assets/c6709cfe-72cd-4f0b-b4a4-2cee9cf4abe3" width="100%" controls>
   Your browser does not support the video tag.
 </video>
 
@@ -30,7 +30,7 @@ The core engine designed to protect mill margins. This module mirrors physical w
 | Grading Interface | Pricing Engine | Mill Configuration |
 | :---: | :---: | :---: |
 | <img src="./assets/Lumber_Grading_Highlight.jpg" width="250" /> | <img src="./assets/Mill_Management_Prices_Tab.jpg" width="250" /> | <img src="./assets/Mill_Management_Config_Tab.jpg" width="250" /> |
-| **Yield Optimizer:** Real-time "Max Drop" calculations to protect ROI. | **Market Pricing:** Granular price management by species and grade. | **Global Config:** Dynamic toggles for species and thickness tracking. |
+| **Yield Optimizer:** Real-time profitability calculations to protect ROI. | **Market Pricing:** Granular price management by species and grade. | **Global Config:** Dynamic toggles for species and thickness tracking. |
 
 ### 3. Inventory Control & Production Analytics
 Connecting real-time shop floor data to administrative oversight, ensuring 100% traceability.
@@ -54,7 +54,8 @@ EnvTory is architected for the "No-Service" environments of a sawmill using a pr
 ---
 
 ## 📬 Contact & Collaboration
-**Brandon Sickler** *B.S. Information Sciences and Technology | Pennsylvania State University* * **LinkedIn:** [linkedin.com/in/brandonsickler](https://www.linkedin.com/in/brandonsickler)
+**Brandon Sickler** | *B.S. Information Sciences and Technology | Pennsylvania State University*
+* **LinkedIn:** [linkedin.com/in/brandonsickler](https://www.linkedin.com/in/brandonsickler)
 * **Email:** BrandonMSickler@gmail.com
 
 ---
