@@ -1,14 +1,14 @@
 # EnvTory: Hardwood Lumber Grading & ERP Optimizer
 **Bridging the gap between the sawmill floor and the front office.**
-> **Note:** The source code for EnvTory is maintained in a private repository to protect proprietary business logic and enterprise security configurations. This repository serves as a technical showcase of the application's architecture, UI/UX design, and integrated manufacturing workflows.
 
+> **Note:** The source code for EnvTory is maintained in a private repository to protect proprietary business logic and enterprise security configurations. This repository serves as a technical showcase of the application's architecture, UI/UX design, and integrated manufacturing workflows.
 
 EnvTory is an enterprise-grade, offline-first mobile application designed to optimize hardwood lumber grading, preserve manufacturing yield, and digitize the timber supply chain. 
 
-Architected by a 15-year industry veteran and PSU Information Sciences student, EnvTory translates complex NHLA rules into a high-performance digital tool that protects mill profitability in real-time.
+Architected by a 15-year industry veteran and Pennsylvania State University IST student, EnvTory translates complex NHLA rules into a high-performance digital tool that protects mill profitability in real-time.
 
 ### 🎥 System Overview & Live Demo
-[Insert Video Placeholder: Drag your compressed MP4 link here]
+![EnvTory Demo](./assets/EnvTory_Screen_Recording.mp4)
 
 ---
 
@@ -56,7 +56,7 @@ The administrative layer for real-time visibility. Monitor current intake volume
 ---
 
 ## 📬 Contact & Collaboration
-**Brandon Sickler** *B.S. Information Sciences and Technology | Pennsylvania State University* * **LinkedIn:** [www.linkedin.com/in/brandonsickler](https://www.linkedin.com/in/brandonsickler)
+**Brandon Sickler** *B.S. Information Sciences and Technology | Pennsylvania State University* * **LinkedIn:** [www.linkedin.com/in/brandonsickler](https://www.linkedin.com/in/brandonsickler)  
 * **Email:** BrandonMSickler@gmail.com
 
 ---
