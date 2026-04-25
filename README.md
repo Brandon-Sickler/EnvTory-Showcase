@@ -1,11 +1,12 @@
 # EnvTory: Hardwood Lumber Grading & ERP Optimizer
 **Bridging the gap between the sawmill floor and the front office.**
 
-> **Note:** The source code for EnvTory is maintained in a private repository to protect proprietary business logic and enterprise security configurations. This repository serves as a technical showcase of the application's architecture, UI/UX design, and integrated manufacturing workflows.
+> **Note:** The source code for EnvTory is maintained in a private repository. This showcase is intended to demonstrate the technical architecture and real-world utility of the platform.
 
-EnvTory is an enterprise-grade, offline-first mobile application designed to optimize hardwood lumber grading, preserve manufacturing yield, and digitize the timber supply chain. 
+### My Goal with EnvTory
+I built EnvTory to solve a specific problem I've seen throughout my 15 years in the lumber industry: the "Data Gap." Most mills rely on paper tallies or slow, outdated software that doesn't help the operator make better decisions. 
 
-Architected by a 15-year industry veteran and Pennsylvania State University IST student, EnvTory translates complex NHLA rules into a high-performance digital tool that protects mill profitability in real-time.
+As a student at Penn State World Campus, I wanted to combine my industry experience with modern tech like React Native and PowerSync to create an app that works as hard as the people using it—even when there’s no Wi-Fi in the yard.
 
 ### 🎥 System Overview & Live Demo
 <video src="https://github.com/user-attachments/assets/c6709cfe-72cd-4f0b-b4a4-2cee9cf4abe3" width="100%" controls>
@@ -14,51 +15,50 @@ Architected by a 15-year industry veteran and Pennsylvania State University IST 
 
 ---
 
-## 💡 System Modules & Core Features
+## 💡 How the App Works
 
 ### 1. Operations Management & Log Intake
-The foundational layer of the supply chain, handling everything from initial intake to global mill configuration.
+This is where everything starts. Instead of writing log dimensions on a clipboard, the intake module lets you scale logs (Doyle or International 1/4) right on your phone. I also built in a "Quality Audit" section so you can track defects like heartwood ratio or stain, which directly affects what that load is worth.
 
 | Mission Control | Log Intake | Quality Audit |
 | :---: | :---: | :---: |
 | <img src="./assets/HomeScreen.jpg" width="250" /> | <img src="./assets/Log_Intake_Scale_Mode.jpg" width="250" /> | <img src="./assets/Log_Intake_Load_Quality_Audit.jpg" width="250" /> |
-| **Central Hub:** Modular dashboard for facility-wide scaling. | **Intake Scaling:** Supports Doyle and International 1/4 rules. | **Quality Audit:** Digital defect tracking (Stain, Heartwood, Wane). |
+| **Mission Control:** The main menu that keeps the different parts of the mill organized. | **Scaling:** A simple interface to record log diameter and length without manual math. | **Auditing:** Tracking the "hidden" details of a load that usually get lost on paper. |
 
-### 2. Lumber Grading & Yield Optimization
-The core engine designed to protect mill margins. This module mirrors physical workflows while providing real-time financial guardrails.
+### 2. Real-Time Grading Optimization
+This is the heart of the project. In the grading booth, you have to decide in seconds whether to "clip" a board to get a better grade. I designed this UI to look like the physical Lufkin sticks we use. It calculates "Profitability Guardrails" that tell you the "Max Drop"—exactly how much wood you can cut off before you start losing money on the upgrade.
 
 | Grading Interface | Pricing Engine | Mill Configuration |
 | :---: | :---: | :---: |
 | <img src="./assets/Lumber_Grading_Highlight.jpg" width="250" /> | <img src="./assets/Mill_Management_Prices_Tab.jpg" width="250" /> | <img src="./assets/Mill_Management_Config_Tab.jpg" width="250" /> |
-| **Yield Optimizer:** Real-time profitability calculations to protect ROI. | **Market Pricing:** Granular price management by species and grade. | **Global Config:** Dynamic toggles for species and thickness tracking. |
+| **The Optimizer:** Tells you if an upgrade is worth it based on current market prices. | **Pricing:** A simple spot to update what the mill is paying for different species and grades. | **Mill Settings:** Where you toggle species on/off depending on what's running that day. |
 
-### 3. Inventory Control & Production Analytics
-Connecting real-time shop floor data to administrative oversight, ensuring 100% traceability.
+### 3. Inventory & Live Analytics
+Sawmills are rarely in areas with good cell service. I used an "Offline-First" architecture so that as you tally boards or build packs, the data is saved locally on the device first. The second you get back to the office Wi-Fi, everything syncs to the cloud so management can see exactly what was produced that day.
 
 | Yard Inventory | Packet Tally | Production Manager |
 | :---: | :---: | :---: |
 | <img src="./assets/Packet_Builder_Yard_Tab.jpg" width="250" /> | <img src="./assets/Packet_Builder_Tally_Tab.jpg" width="250" /> | <img src="./assets/Production_Analytics_Screen.jpg" width="250" /> |
-| **Traceability:** Live tracking of staged vs. active production runs. | **Auto-Tally:** Instant board-foot and efficiency calculations. | **Executive Oversight:** Real-time monitoring of facility throughput. |
+| **Tracking:** Knowing exactly where a pack of lumber is in the yard. | **Auto-Tally:** No more manual board-foot math. The app handles it as you tap. | **Analytics:** A birds-eye view of the mill's performance for the day. |
 
 ---
 
-## ⚙️ Technical Stack & Architecture
-EnvTory is architected for the "No-Service" environments of a sawmill using a professional-grade, offline-first sync engine.
+## ⚙️ The Technical Stack
+I chose these tools because they allow for a professional, fast, and reliable app that works without an internet connection:
 
-* **Frontend:** React Native (Expo) & TypeScript for a native, type-safe mobile experience.
-* **Local Database:** OP-SQLite for instantaneous, edge-based grading calculations.
-* **Sync Engine:** PowerSync to ensure zero data loss and seamless background cloud synchronization.
-* **Backend:** Supabase (PostgreSQL) for secure authentication and relational data storage.
-* **DevOps:** EAS (Expo Application Services) for automated native builds and OTA (Over-the-Air) updates.
+* **React Native (Expo) & TypeScript:** Allows for a smooth mobile experience on both Android and iOS.
+* **OP-SQLite & PowerSync:** This is the "secret sauce" that allows for 100% offline functionality. It stores data locally and syncs to the backend automatically.
+* **Supabase:** Handles my database and user logins securely.
+* **EAS:** Used for building the app and sending out "Over-the-Air" updates so I can fix bugs instantly.
 
 ---
 
 ## 📬 Contact & Collaboration
-**Brandon Sickler** | *B.S. Information Sciences and Technology | Pennsylvania State University*
-* **LinkedIn:** [linkedin.com/in/brandonsickler](https://www.linkedin.com/in/brandonsickler)
-* **Email:** BrandonMSickler@gmail.com
+I'm currently pursuing my B.S. in Information Sciences and Technology at **Penn State** and looking to transition into a technical role where I can use my industry background to build better tools.
+
+**Brandon Sickler** [LinkedIn](https://www.linkedin.com/in/brandonsickler) | BrandonMSickler@gmail.com
 
 ---
 <div align="center">
-  <sub>Built for the Lumber Industry. Powered by Penn State IST. 🌲</sub>
+  <sub>Built with experience from the yard. Powered by Penn State IST. 🌲</sub>
 </div>
